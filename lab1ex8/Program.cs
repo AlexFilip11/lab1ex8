@@ -11,7 +11,7 @@ namespace lab1ex8
             Console.WriteLine("Introduceti doua numere ");
             x = int.Parse(Console.ReadLine());
             y = int.Parse(Console.ReadLine());
-            if (y == 0) Console.WriteLine("indivizibil");
+            if (y == 0) Console.WriteLine("y este 0, nu se poate executa comanda/impartirea");
             else if (x % y == 0) Console.WriteLine("divizibil");
             else Console.WriteLine("indivizibil");
         }
